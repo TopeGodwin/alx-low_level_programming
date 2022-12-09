@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%i is positive\n", n);
-	eles if (n < 0)
+	else if (n < 0)
 		printf("%i is negative\n", n);
 	else
 		printf("%i is  negative\n", n);
