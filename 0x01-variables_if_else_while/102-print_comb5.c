@@ -21,7 +21,7 @@ int main (void)
 				continue; 
 
 			putchar(',');
-			putcharx( ); 
+			putchar( ); 
 		}
 	}
 	putchar('\n');
