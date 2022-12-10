@@ -2,11 +2,11 @@
 /**
  * main - this program should print alphabet in lowercase
  *
- * Rwturn: 0
+ * Return: 0
  */
 int main(void)
 {
-	char letter; 
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
