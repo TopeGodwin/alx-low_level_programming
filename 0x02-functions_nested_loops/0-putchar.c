@@ -1,5 +1,5 @@
 #include "topeGodwin.h"
-#include <stio.h>
+#include <stdio.h>
 /**
  * main - Write a program that prints _putchar, followed by a new line
  *
