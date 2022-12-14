@@ -35,18 +35,18 @@ int main(void)
 		hlf2 = fb1_hlf2 + fb2_hlf2;
 		if (fb1_hlf2 + fb2_hlf2 > LONGE)
 		{
-			hlf1 +=1;
+			hlf1 += 1;
 			hlf2 %= LONGNUM;
 		}
 
 		printf("%lu%lu", hlf1, hlf2);
 		if (cnt != 98)
-			printf(",");
+			printf(", ");
 
 		fb1_hlf1 = fb2_hlf1;
 		fb1_hlf2 = fb2_hlf2;
 		fb2_hlf1 = hlf1;
-		fb2_hlf2 =hlf2;
+		fb2_hlf2 = hlf2;
 	}
 	printf("\n");
 	return (0);
