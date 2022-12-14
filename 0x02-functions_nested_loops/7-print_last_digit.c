@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_digit - print your last digit number
- * @n: The number ranges from 1 to n
- *
- * Return: last_digit
- /
+  * print_digit - print your last digit number
+  * @n: The number ranges from 1 to n
+  *
+  * Return: last_d
+  */
+
 int print_last_digit(int n)
 {
 	int last_d = n % 10; 
