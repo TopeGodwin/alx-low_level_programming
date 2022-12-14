@@ -2,10 +2,10 @@
 
 /**
  * jack_bauer - print the time jack bauer uses in 24 hours
- * h =hours, m = minutes, 
- * / 10 allows seconds digit to rotate 
+ * h =hours, m = minutes
+ * / 10 allows seconds digit to rotate
  * for loop breaks before passing 24:00
- * Return:complete 24 hours clock 
+ * Return:complete 24 hours clock
  */
 void jack_bauer(void)
 {
@@ -13,7 +13,7 @@ void jack_bauer(void)
 
 	for (hrs = 0; hrs <= 23; hrs++)
 	{
-		for (mins = 0; mins <=59; mins++)
+		for (mins = 0; mins <= 59; mins++)
 		{
 			_putchar((hrs / 10) + '0');
 			_putchar((hrs % 10) + '0');
