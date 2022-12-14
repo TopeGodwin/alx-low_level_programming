@@ -9,7 +9,7 @@ void times_table(void)
 {
 	int rw, col, dicr;
 
-	for (r = 0; r <= 9; r++)
+	for (rw = 0; rw <= 9; rw++)
 	{
 		_putchar('0');
 		_putchar(',');
@@ -28,7 +28,7 @@ void times_table(void)
 			}
 			_putchar((dicr % 10) + '0');
 
-			if (c < 9)
+			if (col < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
