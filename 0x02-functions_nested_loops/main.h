@@ -1,5 +1,5 @@
-#ifndef main.c
-#define main.c
+#ifndef MAIN.C
+#define MAIN.C
 
 int _putchar(char);
 void print_alphabet(void);
