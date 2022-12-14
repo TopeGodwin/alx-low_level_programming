@@ -2,7 +2,7 @@
 
 /**
   * times_table -a function that prints the 9 mutiplication table from 0
-  * rw = row, col = colum and dicr = number of current result 
+  * rw = row, col = colum and dicr = number of current result
   * Return: TimesTable
   */
 void times_table(void)
@@ -20,7 +20,7 @@ void times_table(void)
 			dicr = (rw * col);
 			if ((dicr / 10) > 0)
 			{
-				_putchar((dicr / 10) + '0'); 
+				_putchar((dicr / 10) + '0');
 			}
 			else
 			{
@@ -34,6 +34,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
-		_putchar('\n'); 
+		_putchar('\n');
 	}
-}	
+}
