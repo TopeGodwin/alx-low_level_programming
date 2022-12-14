@@ -21,7 +21,7 @@ int main(void)
 		printf("%lu, ", sum);
 
 		fb1 = fb2;
-		fi2 = sum;
+		fb2 = sum;
 	}
 
 	fb1_hlf1 = fb1 / LONGNUM;
@@ -35,7 +35,7 @@ int main(void)
 		hlf2 = fb1_hlf2 + fb2_hlf2;
 		if (fb1_hlf2 + fb2_hlf2 > LONGE)
 		{
-			hllf1 +=1;
+			hlf1 +=1;
 			hlf2 %= LONGNUM;
 		}
 
