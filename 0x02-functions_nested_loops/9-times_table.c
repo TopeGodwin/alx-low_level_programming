@@ -2,31 +2,31 @@
 
 /**
   * times_table -a function that prints the 9 mutiplication table from 0
-  * r = row, c = colum and d = number of current result 
+  * rw = row, col = colum and dicr = number of current result 
   * Return: TimesTable
   */
 void times_table(void)
 {
-	int r, c, d;
+	int rw, col, dicr;
 
 	for (r = 0; r <= 9; r++)
 	{
 		_putchar('0');
 		_putchar(',');
-		_putchar(' '):
+		_putchar(' ');
 
-		for (c =1; c <= 9; c++)
+		for (col = 1; col <= 9; col++)
 		{
-			d = (r * c);
-			if ((d /10) > 0)
+			dicr = (rw * col);
+			if ((dicr / 10) > 0)
 			{
-				_putchar((d / 10) + '0'); 
+				_putchar((dicr / 10) + '0'); 
 			}
 			else
 			{
 				_putchar(' ');
 			}
-			-putchar((d %10) + '0');
+			_putchar((dicr % 10) + '0');
 
 			if (c < 9)
 			{
