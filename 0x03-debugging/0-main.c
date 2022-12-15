@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,12 +7,12 @@
  * Return: 0
  */
 
-void positive_negetive(int t)
+int main(void)
 {
-	int ii; 
-
-	ii = 0;
-	positive_or_negative(ii);
+	int i;
+       
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
