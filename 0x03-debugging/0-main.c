@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main(void)
+void positive_negetive(int t)
 {
 	int ii; 
 
