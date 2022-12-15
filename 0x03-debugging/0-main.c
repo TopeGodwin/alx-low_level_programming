@@ -11,7 +11,7 @@ void positive_negetive(int t)
 	int ii; 
 
 	ii = 0;
-	positive_or_negative(i);
+	positive_or_negative(ii);
 
 	return (0);
 }
