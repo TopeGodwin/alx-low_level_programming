@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main -test function that prints if interger is postive or negative
+ * main - tests function that prints if interger is postive or negative
  * Return: 0
  */
 
