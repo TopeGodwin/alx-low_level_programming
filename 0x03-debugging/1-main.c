@@ -17,7 +17,6 @@ int main(void)
 	 * putcharr(i);
 	 * /
 	 *
-	 *
 	i = 0;
 
 	printf("Infinite loop avoided! \\o/\n");
