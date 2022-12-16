@@ -3,9 +3,9 @@
 
 #include <stdio.h>
 
-void positive_or_negative(int t);
-void print_remaining_days(int mnth, int dy, int yr);
-int largest_number(int t, int j, int g);
-int convert_day(int mnth, int dy);
+void positive_or_negative(int i);
+void print_remaining_days(int month, int day, int year);
+int largest_number(int b, int b, int c);
+int convert_day(int month, int day);
 
 #endif /* Main.c */
