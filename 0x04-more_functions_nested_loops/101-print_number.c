@@ -20,5 +20,5 @@ void print_number(int n)
 		t = -n;
 	}
 	if (t / 10 != 0)
-	print_number(t % 10) + '0');
+		print_number(t % 10) + '0');
 }
