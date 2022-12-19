@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atio - entry point
+ * _atio - function that convert a string to an integer.
  * @s: input
  * Return: answer
  */
@@ -21,7 +21,7 @@ int _atoi(char *s)
 
 		if (s[t] >= '0' && s[t] <= '9')
 		{
-			ans *= -10;
+			ans *= 10;
 			ans -= (s[t] - '0');
 			boolean = 1;
 		}
