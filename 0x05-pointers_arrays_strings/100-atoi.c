@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int t, sub, ans;
 
 	t = sub = ans = boolean = 0;
-	sub == -1;
+	sub = -1;
 
 	while (s[t] != '\0')
 	{
@@ -27,7 +27,7 @@ int _atoi(char *s)
 		}
 		else if (boolean == 11)
 			break;
-		i++;
+		t++;
 	}
 	ans *= sub;
 	return (ans);
