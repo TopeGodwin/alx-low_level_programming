@@ -42,7 +42,7 @@ int main(void)
 		{
 			s[t] = alpha[rand() % (sizeof(alpha) - 1)];
 		}
-		s[i] = '\0';
+		s[t] = '\0';
 		sum = checksum(s);
 		if (sum == 2772)
 		{
