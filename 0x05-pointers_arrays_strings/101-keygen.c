@@ -40,7 +40,7 @@ int main(void)
 	{
 		for (t = 0; t < 33; t++)
 		{
-			s[i] = alpha[rand() % (sizeof(alpha) - 1)];
+			s[t] = alpha[rand() % (sizeof(alpha) - 1)];
 		}
 		s[i] = '\0';
 		sum = checksum(s);
