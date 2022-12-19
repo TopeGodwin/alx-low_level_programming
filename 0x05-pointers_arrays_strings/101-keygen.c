@@ -38,7 +38,7 @@ int main(void)
 	srand(time(NULL));
 	while (flag == 0)
 	{
-		for (t = 0; i < 33; i++)
+		for (t = 0; t < 33; t++)
 		{
 			s[i] = alpha[rand() % (sizeof(alpha) - 1)];
 		}
