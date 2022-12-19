@@ -2,7 +2,7 @@
 
 /**
  * puts2 - function should print only one charater out of two
- * starting with the 1st 
+ * starting with the 1st
  * @str: input
  * Return: print
  */
