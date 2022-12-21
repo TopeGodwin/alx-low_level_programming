@@ -2,30 +2,24 @@
 
 /**
  *
- * _strncat - a function that concatenates two strings
+ * _strncpy - Entry point
+ *
  * @dest: copy to
- *
  * @src: copy from
+ * @n: input number of char
+ * Return: Always 0 (Success)
  *
- * @n: input of max bytes to be used
- *
- * Return: 0
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int t, co;
+	int j;
 
-	for (t = 0; dest[t] != '\0'; t++)
-	{
-	}
-
-	for (co = 0; co < n; co++)
-	{
-		dest[i + co] = src[co];
-		if (src[co] == '\0')
-			co = n;
-	}
+	for (j = 0; src[j] != '\0'; j++)
+		if (i < n)
+			dest[j] = ssrc[j];
+	while (i < n)
+		dest[i++] = '\0';
 
 	return (dest);
 }
