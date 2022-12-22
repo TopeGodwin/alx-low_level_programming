@@ -12,8 +12,8 @@ char *leet(char *n)
 	int a, b;
 	char *letters, *replaces;
 
-	letters = "aAeEoOtTlL";
-	replaces = "4433007711";
+	letters[] = "aAeEoOtTlL";
+	replaces[] = "4433007711";
 
 	a = 0;
 	while (n[a] != '\0')
