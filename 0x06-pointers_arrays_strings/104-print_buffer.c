@@ -16,7 +16,7 @@ void print_buffer(char *b, int size)
 		putchar('\n');
 	else
 	{
-		while (n  < size)
+		while (n < size)
 		{
 			printf("%08x: ", n);
 			m = 0;
@@ -39,7 +39,7 @@ void print_buffer(char *b, int size)
 				if (b[m + n] >= ' ' && b[m + n] <= '~')
 					putchar(b[m + n]);
 				else
-					putchar(' ');
+					putchar('.');
 				m++;
 			}
 			putchar('\n');
