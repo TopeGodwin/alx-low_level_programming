@@ -38,4 +38,3 @@ char *cap_string(char *n)
 	}
 	return (n);
 }
-}
