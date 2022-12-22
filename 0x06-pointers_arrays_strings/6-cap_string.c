@@ -12,9 +12,9 @@ char *cap_string(char *n)
 	i = 0;
 	while (n[i] != '\0')
 	{
-		if (str[0] >= 'a' && str[0] <= 'z')
-			str[i] = str[i] - 32;
-		switch (str[i])
+		if (n[0] >= 'a' && n[0] <= 'z')
+			n[i] = n[i] - 32;
+		switch (n[i])
 		{
 			case ' ':
 			case '\t':
@@ -29,9 +29,9 @@ char *cap_string(char *n)
 			case ')':
 			case '{':
 			case '}':
-				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				if (n[i + 1] >= 'a' && n[i + 1] <= 'z')
 				{
-					str[i + 1] = str[i + 1] - 32;
+					n[i + 1] = n[i + 1] - 32;
 				}
 		}
 		i++;
