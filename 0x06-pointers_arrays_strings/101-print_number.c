@@ -9,7 +9,7 @@
 void print_number(int n)
 {
 	unsigned int s = n;
-	
+
 	int i, dig = 0;
 
 	if (n < 0)
@@ -27,7 +27,7 @@ void print_number(int n)
 	{
 
 		int t, d, pow = 1;
-		
+
 		for (t = 0; t < dig - i - 1; t++)
 		{
 			pow = pow * 10;
