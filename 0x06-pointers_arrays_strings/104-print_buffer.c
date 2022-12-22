@@ -12,7 +12,9 @@ void print_buffer(char *b, int size)
 
 	n = 0;
 	if (size <= 0)
+	{
 		putchar('\n');
+	}
 	else
 	{
 		while (n < size)
@@ -21,7 +23,6 @@ void print_buffer(char *b, int size)
 			m = 0;
 			while (m < 10)
 			{
-
 				if (m % 2 == 0 && m > 0)
 					printf(" ");
 				if (m + n > size - 1)
@@ -33,8 +34,7 @@ void print_buffer(char *b, int size)
 			putchar(' ');
 			m = 0;
 			while (m < 10)
-			{
-			
+			{		
 				if (m + n > size - 1)
 					break;
 				if (b[m + n] >= ' ' && b[m + n] <= '~')
