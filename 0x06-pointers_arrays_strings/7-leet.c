@@ -10,20 +10,20 @@
 char *leet(char *n)
 {
 	int a, b;
-	char *let, *rep;
+	char *letters, *replaces;
 
-	let = "aAeEoOtTlL";
-	rep = "4433007711";
+	letters = "aAeEoOtTlL";
+	replaces = "4433007711";
 
 	a = 0;
 	while (n[a] != '\0')
 	{
 		b = 0;
-		while (let[b] != '\0')
+		while (letters[b] != '\0')
 		{
-			if (n[a] == let[b])
+			if (n[a] == letter[b])
 			{
-				n[a] = rep[b];
+				n[a] = replaces[b];
 			}
 			b++;
 		}
