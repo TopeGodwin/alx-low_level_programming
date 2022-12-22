@@ -12,9 +12,7 @@ void print_buffer(char *b, int size)
 
 	n = 0;
 	if (size <= 0)
-	{
 		putchar('\n');
-	}
 	else
 	{
 		while (n < size)
