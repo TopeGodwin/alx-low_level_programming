@@ -4,7 +4,7 @@
  * leet - Entry point
  * ONE if, Two loops only ...
  * @n: input
- * Return: 0
+ * Return: n
  */
 
 char *leet(char *n)
@@ -21,7 +21,7 @@ char *leet(char *n)
 		b = 0;
 		while (letters[b] != '\0')
 		{
-			if (n[a] == letter[b])
+			if (n[a] == letters[b])
 			{
 				n[a] = replaces[b];
 			}
