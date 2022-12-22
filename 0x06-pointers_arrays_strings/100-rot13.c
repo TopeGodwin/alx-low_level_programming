@@ -9,21 +9,25 @@
 
 char *rot13(char *n)
 {
-	int a, b = 0, rot_c = 13;
-	char toswap[] = {'A', 'N', 'a', 'n', 'B', 'O', 'b', 'o', 'C', 'P', 'c', 'p', 'D', 'Q', 'd', 'q', 'E', 'R', 'e', 'r', 'F', 'S', 'f', 's', 'G', 'T', 'g', 't', 'H', 'U', 'h', 'u', 'I', 'V', 'i', 'v', 'J', 'W', 'j', 'w', 'K', 'X', 'k', 'x', 'L', 'Y', 'l', 'y', 'M', 'Z', 'm', 'z'};
+	char *input, *output;
+	int count, count2;
 
-	while (n[b] '\0')
+	input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	count = 0;
+	while (n[count] != '\0')
 	{
-		for (a = 0; a <= 51; a++)
+		count2 = 0;
+		while (input[count2] != '\0')
 		{
-			if (n[b] == toswap[a])
+			if (n[count] == input[count2])
 			{
-				n[b] = n[b] + rot_c;
-				a = 51;
+				n[count] = output[count2];
+				break;
 			}
-			rot_c = rot_c * -1;
+			count2++;
 		}
-		b++;
+		count++;
 	}
 	return (n);
 }
