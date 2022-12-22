@@ -27,5 +27,7 @@ char *leet(char *n)
 			}
 			b++;
 		}
+		a++
+	}
 	return (n);
 }
