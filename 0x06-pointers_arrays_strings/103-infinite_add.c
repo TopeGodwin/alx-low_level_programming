@@ -18,13 +18,13 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	rol = i = len1 = len2 = sum = num1 = num2 = cary = 0;
 	while  (n1[len1] != '\0')
 		len1++;
-	while (n[len2] != '\0')
+	while (n2[len2] != '\0')
 		len2++;
-	if (len1 + 2 > size_r || 12 + 2 > size_r)
+	if (len1 + 2 > size_r || len2 + 2 > size_r)
 		return (0);
 	len1--;
 	len2--;
-	while (i <= len1 || i <= 12)
+	while (i <= len1 || i <= len2)
 	{
 		num1 = num2 = 0;
 		if (i <= len1)
@@ -45,7 +45,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (cary > 0)
 	{
-		r[i] = carry + '0';
+		r[i] = cary + '0';
 		r[i + 1] = '\0';
 	}
 	i = tmpl = 0;
