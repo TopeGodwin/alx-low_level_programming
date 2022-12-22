@@ -10,10 +10,8 @@
 char *leet(char *n)
 {
 	int a, b;
-	char letters, replaces;
-
-	letters[] = "aAeEoOtTlL";
-	replaces[] = "4433007711";
+	char letters[] = "aAeEoOtTlL";
+	char replaces[] = "4433007711";
 
 	a = 0;
 	while (n[a] != '\0')
