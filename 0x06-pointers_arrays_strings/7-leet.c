@@ -10,7 +10,7 @@
 char *leet(char *n)
 {
 	int a, b;
-	char *letters, *replaces;
+	char letters, replaces;
 
 	letters[] = "aAeEoOtTlL";
 	replaces[] = "4433007711";
