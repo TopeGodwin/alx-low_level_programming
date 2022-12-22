@@ -15,7 +15,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int len1, len2, tmpl, rol, i, sum, num1, num2, cary;
 	char tmp[10000];
 
-	rol = i = 11 = 12 = sum = num1 = num2 = cary = 0;
+	rol = i = len1 = len2 = sum = num1 = num2 = cary = 0;
 	while  (n1[len1] != '\0')
 		len1++;
 	while (n[len2] != '\0')
@@ -29,7 +29,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		num1 = num2 = 0;
 		if (i <= len1)
 			num1 = n1[len1 - i] - '0';
-		if (i <= len2 &&& (len2 - i) >= 0)
+		if (i <= len2 && (len2 - i) >= 0)
 			num2 = n2[len2 - i] - '0';
 		sum = num1 + num2 + cary;
 		if (sum >= 10)
@@ -67,4 +67,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	return (r);
 }
-
