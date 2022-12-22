@@ -3,29 +3,31 @@
 /**
  * leet - Entry point
  * ONE if, Two loops only ...
- * @n: input
+ * @str: input
  * Return: n
  */
 
-char *leet(char *n)
+char *leet(char *str)
 {
-	int a, b;
-	char letters[] = "aAeEoOtTlL";
-	char replaces[] = "4433007711";
+	char *letters, *replace;
+	int count, count2;
 
-	a = 0;
-	while (n[a] != '\0')
+	letters = "aAeEoOtTlL";
+	replace = "4433007711";
+
+	count = 0;
+	while (str[count] != '\0')
 	{
-		b = 0;
-		while (letters[b] != '\0')
+		count2 = 0;
+		while (letters[count2] != '\0')
 		{
-			if (n[a] == letters[b])
+			if (str[count] == letters[count2])
 			{
-				n[a] = replaces[b];
+				str[count] = replace[count2];
 			}
-			b++;
+			count2++;
 		}
-		a++
+		count++
 	}
-	return (n);
+	return (str);
 }
