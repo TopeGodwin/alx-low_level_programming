@@ -32,7 +32,7 @@ void print_buffer(char *b, int size)
 			putchar(' ');
 			m = 0;
 			while (m < 10)
-			{		
+			{
 				if (m + n > size - 1)
 					break;
 				if (b[m + n] >= ' ' && b[m + n] <= '~')
