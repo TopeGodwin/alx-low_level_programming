@@ -4,6 +4,7 @@
  * print_buffer - Print the entire buffer w/ certain conditions
  * @b: The buffer to print
  * @size: The size of the buffer
+ * Return: 0
  */
 
 void print_buffer(char *b, int size)
