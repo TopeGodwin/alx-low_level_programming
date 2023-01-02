@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _memcpy - Entry point 
+ * _memcpy - Entry point
  * @n: input number
  * @src: memory from input area
  * @dest: memory to input area
- *
- * Return: 0 (dest)
+ * Return: Always 0 (Success)
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
