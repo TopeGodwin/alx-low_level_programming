@@ -2,7 +2,7 @@
 
 /**
  * _strspn - Entry Point
- * @s: intial Input 
+ * @s: intial Input
  * @accept: final Input
  * Return: Always 0 (Success)
  */
@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int t, j, valu, chek;
 
-	valu = 0; 
+	valu = 0;
 
 	for (t = 0; s[t] != '\0'; t++)
 	{
@@ -31,4 +31,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 
 	return (valu);
-}	
+}
