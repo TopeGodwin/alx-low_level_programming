@@ -2,6 +2,7 @@
 #define MAIN_H_ALX
 
 int _putchar(char c);
+int sqrt2(int a, int b);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
