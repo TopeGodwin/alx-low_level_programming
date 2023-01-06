@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		sum = 0;
 		for (i = 1; i < argc; i++)
 		{
-			pointer = agrv[i];
+			pointer = argv[i];
 			len = strlen(pointer);
 
 			for (j = 0; j < len; j++)
