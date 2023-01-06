@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	naria = atoi(argv[1]);
+	naira = atoi(argv[1]);
 	while (naira > 0)
 	{
 		coins++;
