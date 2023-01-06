@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		{
 			pointer = agrv[i];
 			len = strlen(pointer);
-			
+
 			for (j = 0; j < len; j++)
 			{
 				if (isdigit(*(pointer + j)) == 0)
