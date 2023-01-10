@@ -7,7 +7,7 @@
  *@c: character
  *@size: the size of the memory to print
  *
- *Return: NULL if 0 or fail else return 
+ *Return: NULL if 0 or fail else return
  */
 char *create_array(unsigned int size, char c)
 {
