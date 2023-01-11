@@ -13,7 +13,7 @@ int number(char *str)
 {
 	int a, num = 0;
 
-	for (a = 0; str[a] !- '\0'; a++)
+	for (a = 0; str[a] != '\0'; a++)
 	{
 		if (*str == ' ')
 			str++;
@@ -57,7 +57,7 @@ char **strtow(char *str)
 	if (total_words == 0)
 		return (NULL);
 	words = malloc((total_words + 1) * sizeof(char *));
-	if (word == 0)
+	if (words == 0)
 		return (NULL);
 	for (; *str != '\0' &&  b < total_words;)
 	{
