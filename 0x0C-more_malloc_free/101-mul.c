@@ -15,7 +15,7 @@ int check_num(char *st)
 	for (a = 0; st[a] != '\0'; a++)
 	{
 		if (st[a] < '0' || st[a] > '9')
-			return (NULL);
+			return (0);
 	}
 	return (1);
 }
@@ -51,7 +51,7 @@ void print_string(char *st)
 		st++;
 	while (*st != '\0')
 	{
-		_puttchar(*st);
+		_putchar(*st);
 		st++;
 	}
 	_putchar('\n');
