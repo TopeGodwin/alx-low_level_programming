@@ -10,7 +10,7 @@
 
 int check_num(char *st)
 {
-	int a; 
+	int a;
 
 	for (a = 0; st[a] != '\0'; a++)
 	{
