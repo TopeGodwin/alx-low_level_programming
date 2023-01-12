@@ -30,7 +30,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	new = malloc(new_size * sizeof(char));
 	if (new == 0)
 		return (NULL);
-	if(new_size < old_size)
+	if (new_size < old_size)
 		for (a = 0; a < new_size; a++)
 			new[a] = old[a];
 	return (new);
