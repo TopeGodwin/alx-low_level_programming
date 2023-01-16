@@ -2,7 +2,6 @@
 #define DOG_H
 
 /**
- *
  * struct dog - function to typedef struct dog
  * @name: character pointer
  * @age: float
