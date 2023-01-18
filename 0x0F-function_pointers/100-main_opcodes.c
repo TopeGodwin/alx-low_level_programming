@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 	if (a < 0)
 	{
 		printf("Error\n");
-		exiit(2);
+		exit(2);
 	}
 	s = (char *)main;
 	for (b = 0; b < a - 1; b++)
