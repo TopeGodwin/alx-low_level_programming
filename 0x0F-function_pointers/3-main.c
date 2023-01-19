@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(99);
 	}
-	num1 == atoi(argv[1]);
+	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
 	result = res(num1, num2);
 	printf("%d\n", result);
